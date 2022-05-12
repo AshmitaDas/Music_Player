@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://kit.fontawesome.com/5a32106c1c.js" crossorigin="anonymous"></script>
+
+        <title>In A Loop</title>
+        <link rel="shortcut icon" type= "image/png" href="Assets/favicon.png">
+
+        <link rel="stylesheet" type="text/css" href="musicPlayerStyles.css">
+    </head>
+
+        <nav>
+            <!--Music Player Tag div-->
+            <div id="music-player-tag">
+                <!--Music Player Logo div-->
+                <div id="music-player-logo">
+                    <img src="Assets/favicon.png">
+                </div>
+                <!--Music Player Logo div end-->
+    
+                <!--Music Player Title-->
+                <div id="music-player-name">
+                    <b>In a</b>
+                    <p>LOOP</p>
+                </div>
+                <!--Music Player Title div end-->
+            </div>
+             <!--Music Player Tag div end-->
+    
+             <!--Search Bar utility div-->
+             <div id="search-bar-utility">
+                 <!--Search Bar div-->
+                <div id="search-bar">
+                    <form>
+                        <input type="text" placeholder="Search">
+                        <!--Search Icon-->
+                        <i class="fas fa-search"></i>
+                    </form>
+                </div>
+                <!--Search Bar div end-->
+    
+                <!--Notification Bell div-->
+                <div id="notifications">
+                    <i class="fas fa-bell"></i>
+                </div>
+             <!--Notification Bell div end-->
+    
+             <!--User Image div-->
+                <div id="user">
+                    <img src="Assets/favicon.png">
+                </div>
+                <!--User Image div end-->
+            </div>
+             <!-- Search Bar utility div end-->
+        </nav>
+        <!--End of navigation bar section-->
+    <body>
+        <!--Main body of the Music Player Home Page-->
+        <main>
+		    <!--Home Screen Carousel which is slideshown with class slideshow-->
+		    <div id="new-releases">
+			    <div><img src="Assets/cover1.jpg"></div>
+			    <div><img src="Assets/cover2.jpg"></div>
+			    <div><img src="Assets/cover3.jpg"></div>
+		    </div>
+            <!--End of home screen carousel-->
+        
+            <!--Begining of latest release section-->
+		    <div id="latest-release">
+			    <!--Heading-->
+			    <h1 class="headings">Latest Release</h1>
+                <!--Latest Release Item div which contains the latest songs displayed-->
+			    <div id="latest-release-items">
+                    <!-- Item 1 -->
+                    <div class="latest-release-item">
+                        <div class="latest-release-item-image"><img src="Assets/Closer_(featuring_Halsey)_(Official_Single_Cover)_by_The_Chainsmokers.png">
+                            <div class="play-button-appearance">
+                                <p><i class="fas fa-play"></i></p>
+                            </div>
+                        </div>
+                        <div class="latest-release-item-desc">
+                            <p>Song Name</p>
+                            <p>March 17 2022</p>
+                        </div>
+                              <!--Dropdown menu icon-->
+                        <div id="dropdown-and-time">
+                            <i class="fa-solid fa-ellipsis">
+                     	    <div id="dropdown-menu" class="play-button-appearance">
+                     		    <div id="dropdown-list">
+                     			    <i class="fas fa-play"></i>
+                     			    &nbsp;
+                     		        <a href="#music-bar">Play Now</a>
+                     	        </div>
+                     		    <hr/>
+                     		    <div id="dropdown-list">
+                     			    <i class="fas fa-plus"></i>
+                     			    &nbsp;
+                     		        <a href="#latest-release">Add to Queue</a>
+                     	        </div>
+                     		    <hr/>
+                     		    <div id="dropdown-list">
+                     			    <i class="fas fa-plus"></i>
+                     			    &nbsp;
+                     		        <a href="#latest-release">Add to Favourites</a>
+                     	        </div>
+                     		    <hr/>
+                     		    <div id="dropdown-list">
+                     			    <i class="fas fa-exclamation-circle"></i>
+                     			    &nbsp;
+                     		        <a href="#latest-release">Get Info</a>
+                     	        </div>
+                     	    </div>
+                            </i>
+                        </div>
+                        <!--End of dropdown menu-->
+                        <div id="time"><p>4:34</p></div>
+                    </div> <!-- Item 1 ends -->
+                    
+                    <!-- Item 2 -->
+                    <div class="latest-release-item">
+                        <div class="latest-release-item-image"><img src="Assets/Million Days.jpg">
+                            <div class="play-button-appearance">
+                                <p><i class="fas fa-play"></i></p>
+                            </div>
+                        </div>
+                        <div class="latest-release-item-desc">
+                            <p>Song Name</p>
+                            <p>March 17 2022</p>
+                        </div>
+                              <!--Dropdown menu icon-->
+                        <div id="dropdown-and-time">
+                            <i class="fa-solid fa-ellipsis">
+                     	    <div id="dropdown-menu" class="play-button-appearance">
+                     		    <div id="dropdown-list">
+                     			    <i class="fas fa-play"></i>
+                     			    &nbsp;
+                     		        <a href="#music-bar">Play Now</a>
+                     	        </div>
+                     		    <hr/>
+                     		    <div id="dropdown-list">
+                     			    <i class="fas fa-plus"></i>
+                     			    &nbsp;
+                     		        <a href="#latest-release">Add to Queue</a>
+                     	        </div>
+                     		    <hr/>
+                     		    <div id="dropdown-list">
+                     			    <i class="fas fa-plus"></i>
+                     			    &nbsp;
+                     		        <a href="#latest-release">Add to Favourites</a>
+                     	        </div>
+                     		    <hr/>
+                     		    <div id="dropdown-list">
+                     			    <i class="fas fa-exclamation-circle"></i>
+                     			    &nbsp;
+                     		        <a href="#latest-release">Get Info</a>
+                     	        </div>
+                     	    </div>
+                            </i>
+                        </div>
+                        <!--End of dropdown menu-->
+                        <div id="time"><p>4:34</p></div>
+                    </div> <!-- Item 2 ends -->
+
+                    <!-- Item 3 -->
+                    <div class="latest-release-item">
+                        <div class="latest-release-item-image"><img src="Assets/ashes celina dion.webp">
+                            <div class="play-button-appearance">
+                                <p><i class="fas fa-play"></i></p>
+                            </div>
+                        </div>
+                        <div class="latest-release-item-desc">
+                            <p>Song Name</p>
+                            <p>March 17 2022</p>
+                        </div>
+                              <!--Dropdown menu icon-->
+                        <div id="dropdown-and-time">
+                            <i class="fa-solid fa-ellipsis">
+                     	    <div id="dropdown-menu" class="play-button-appearance">
+                     		    <div id="dropdown-list">
+                     			    <i class="fas fa-play"></i>
+                     			    &nbsp;
+                     		        <a href="#music-bar">Play Now</a>
+                     	        </div>
+                     		    <hr/>
+                     		    <div id="dropdown-list">
+                     			    <i class="fas fa-plus"></i>
+                     			    &nbsp;
+                     		        <a href="#latest-release">Add to Queue</a>
+                     	        </div>
+                     		    <hr/>
+                     		    <div id="dropdown-list">
+                     			    <i class="fas fa-plus"></i>
+                     			    &nbsp;
+                     		        <a href="#latest-release">Add to Favourites</a>
+                     	        </div>
+                     		    <hr/>
+                     		    <div id="dropdown-list">
+                     			    <i class="fas fa-exclamation-circle"></i>
+                     			    &nbsp;
+                     		        <a href="#latest-release">Get Info</a>
+                     	        </div>
+                     	    </div>
+                            </i>
+                        </div>
+                        <!--End of dropdown menu-->
+                        <div id="time"><p>4:34</p></div>
+                    </div> <!-- Item 3 ends -->
+
+                    <!-- Item 4 -->
+                    <div class="latest-release-item">
+                        <div class="latest-release-item-image"><img src="Assets/Ed_Sheeran_Perfect_Single_cover.jpg">
+                            <div class="play-button-appearance">
+                                <p><i class="fas fa-play"></i></p>
+                            </div>
+                        </div>
+                        <div class="latest-release-item-desc">
+                            <p>Song Name</p>
+                            <p>March 17 2022</p>
+                        </div>
+                              <!--Dropdown menu icon-->
+                        <div id="dropdown-and-time">
+                            <i class="fa-solid fa-ellipsis">
+                     	    <div id="dropdown-menu" class="play-button-appearance">
+                     		    <div id="dropdown-list">
+                     			    <i class="fas fa-play"></i>
+                     			    &nbsp;
+                     		        <a href="#music-bar">Play Now</a>
+                     	        </div>
+                     		    <hr/>
+                     		    <div id="dropdown-list">
+                     			    <i class="fas fa-plus"></i>
+                     			    &nbsp;
+                     		        <a href="#latest-release">Add to Queue</a>
+                     	        </div>
+                     		    <hr/>
+                     		    <div id="dropdown-list">
+                     			    <i class="fas fa-plus"></i>
+                     			    &nbsp;
+                     		        <a href="#latest-release">Add to Favourites</a>
+                     	        </div>
+                     		    <hr/>
+                     		    <div id="dropdown-list">
+                     			    <i class="fas fa-exclamation-circle"></i>
+                     			    &nbsp;
+                     		        <a href="#latest-release">Get Info</a>
+                     	        </div>
+                     	    </div>
+                            </i>
+                        </div>
+                        <!--End of dropdown menu-->
+                        <div id="time"><p>4:34</p></div>
+                    </div> <!-- Item 4 ends -->
+
+                    </div>
+                    <!--Latest Release Item div ends-->
+            </div>
+            <div class="popular-artist">
+                <h1 class="headings">Polular Artists</h1>
+                <div class="artists">
+                    <div class="artist artist-design"><img src="Assets/ed sheeren.webp"></div>
+                    <div class="artist artist-design"><img src="Assets/alec benjamin.jpg"></div>
+                    <div class="artist artist-design"><img src="Assets/adam levine.jpg"></div>
+                    <div class="artist artist-design"><img src="Assets/justin bieber.jpg"></div>
+                    <div class="artist artist-design"><img src="Assets/james arthur.jpg"></div>
+                    <div class="artist artist-design"><img src="Assets/selena gomez.jpg"></div>
+                </div>
+
+                <div class="stations">
+                    <div class="artist station"><img src="Assets/love theme.jpg">
+                        <div class="overlay-station">Love</div>
+                    </div>
+                    <div class="artist station"><img src="Assets/retro.jpg">
+                        <div class="overlay-station">Retro</div>
+                    </div>
+                    <div class="artist station"><img src="Assets/chill.webp">
+                        <div class="overlay-station">Chill</div>
+                    </div>
+                    <div class="artist station"><img src="Assets/workout.jpg">
+                        <div class="overlay-station">Workout</div>
+                    </div>
+                    <div class="artist station"><img src="Assets/rock.jpg">
+                        <div class="overlay-station">Rock</div>
+                    </div>
+                    <div class="artist station"><img src="Assets/pop.jpg">
+                        <div class="overlay-station">Pop</div>
+                    </div>
+                </div>
+
+                <div class="stations-type2">
+                    <div class="artist type2"><img src="Assets/party.jpg">
+                        <div class="overlay-type2">Party</div>
+                    </div>
+                    <div class="artist type2"><img src="Assets/electronic.webp">
+                        <div class="overlay-type2">Electronic</div>
+                    </div>
+                    <div class="artist type2"><img src="Assets/road trip.jpg">
+                        <div class="overlay-type2">Road Trip</div>
+                    </div>
+                </div>
+            </div>
+             <!-- Popolar Artists section ends-->
+
+
+            <div class="popular-artist">
+                <h1 class="headings">Latest English</h1>
+                <div class="artists">
+                    <div class="artist artist-design latest-design"><img src="Assets/coldplay.jpg">
+                        <p>Song Name</p>
+                        <p>March 17 2022</p>
+                    </div>
+                    <div class="artist artist-design latest-design"><img src="Assets/taylor swift.jpg">
+                        <p>Song Name</p>
+                        <p>March 17 2022</p>
+                    </div>
+                    <div class="artist artist-design latest-design"><img src="Assets/Jonas-Brothers-Little-Bit-Longer.webp">
+                        <p>Song Name</p>
+                        <p>March 17 2022</p>
+                    </div>
+                    <div class="artist artist-design latest-design"><img src="Assets/beautiful mistakes.jpg">
+                        <p>Song Name</p>
+                        <p>March 17 2022</p>
+                    </div>
+                    <div class="artist artist-design latest-design"><img src="Assets/martin garrix.webp">
+                        <p>Song Name</p>
+                        <p>March 17 2022</p>
+                    </div>
+                    <div class="artist artist-design latest-design"><img src="Assets/imagine dragons.jpg">
+                        <p>Song Name</p>
+                        <p>March 17 2022</p>
+                    </div>
+                </div>
+            </div>
+             <!-- Latest English section ends-->
+
+
+            <div class="popular-artist">
+                <h1 class="headings">Latest Hindi</h1>
+                <div class="artists">
+                    <div class="artist artist-design latest-design"><img src="Assets/hindi1.jpg">
+                        <p>Song Name</p>
+                        <p>March 17 2022</p>
+                    </div>
+                    <div class="artist artist-design latest-design"><img src="Assets/hindi2.jpg">
+                        <p>Song Name</p>
+                        <p>March 17 2022</p>
+                    </div>
+                    <div class="artist artist-design latest-design"><img src="Assets/hindi3.jpg">
+                        <p>Song Name</p>
+                        <p>March 17 2022</p>
+                    </div>
+                    <div class="artist artist-design latest-design"><img src="Assets/hindi4.jpg">
+                        <p>Song Name</p>
+                        <p>March 17 2022</p>
+                    </div>
+                    <div class="artist artist-design latest-design"><img src="Assets/hindi5.jpeg">
+                        <p>Song Name</p>
+                        <p>March 17 2022</p>
+                    </div>
+                    <div class="artist artist-design latest-design"><img src="Assets/hindi6.jpg">
+                        <p>Song Name</p>
+                        <p>March 17 2022</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Latest Hindi section ends-->
+        </main>
+        <!-- Main section ends-->
+
+        <!-- Aside section -->
+        <aside>
+            <!--Aside section header-->
+   	        <div id="aside-header">
+   	        <!--Aside section title-->
+   	            <div id="aside-title">Queue</div><!--End of aside section title-->
+                <!--Dropdown menu-->
+                <select name="queue-option" id="queue-option">
+                    <option value="" selected disabled hidden>Queue</option>
+                    <option value="play-now">Play Now</option>
+                    <option value="add-to-queue">Add To Queue</option>
+                    <option value="add-to-favourites">Add To Favourites</option>
+                    <option value="get-info">Get Info</option>
+                </select>
+                <!--Dropdown menu ends-->
+
+                <!--Item 1-->
+                <div class="queue">
+                    <div class="queue-items">
+                        <div class="serial-no">01</div>
+                        <div class="queue-image"><img src="Assets/Divide_cover ed sheeren.png">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="song-name">
+                            <p>Song Name</p>
+                        </div>
+                        <div class="singer">
+                            <p>Singer</p>
+                        </div>
+                    </div>
+                    <div class="make-favourite">
+                        <i class="fa-solid fa-heart"></i></i>
+                    </div>
+                </div>
+                <!--Item 1 ends-->
+                
+                <!--Item 2-->
+                <div class="queue">
+                    <div class="queue-items">
+                        <div class="serial-no">02</div>
+                        <div class="queue-image"><img src="Assets/ComingHomeDiddy-DirtyMoney.jpg">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="song-name">
+                            <p>Song Name</p>
+                        </div>
+                        <div class="singer">
+                            <p>Singer</p>
+                        </div>
+                    </div>
+                    <div class="make-favourite">
+                        <i class="fa-solid fa-heart"></i></i>
+                    </div>
+                </div>
+                <!--Item 2 ends-->
+
+                <!--Item 3-->
+                <div class="queue">
+                    <div class="queue-items">
+                        <div class="serial-no">03</div>
+                        <div class="queue-image"><img src="Assets/memories chainsmoker.jpg">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="song-name">
+                            <p>Song Name</p>
+                        </div>
+                        <div class="singer">
+                            <p>Singer</p>
+                        </div>
+                    </div>
+                    <div class="make-favourite">
+                        <i class="fa-solid fa-heart"></i></i>
+                    </div>
+                </div>
+                <!--Item 3 ends-->
+
+                <!--Item 4-->
+                <div class="queue">
+                    <div class="queue-items">
+                        <div class="serial-no">04</div>
+                        <div class="queue-image"><img src="Assets/imagine dragons the fall.jpg">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="song-name">
+                            <p>Song Name</p>
+                        </div>
+                        <div class="singer">
+                            <p>Singer</p>
+                        </div>
+                    </div>
+                    <div class="make-favourite">
+                        <i class="fa-solid fa-heart"></i></i>
+                    </div>
+                </div>
+                <!--Item 4 ends-->
+
+                <!--Item 5-->
+                <div class="queue">
+                    <div class="queue-items">
+                        <div class="serial-no">05</div>
+                        <div class="queue-image"><img src="Assets/say something cjristina aguliera.jpg">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="song-name">
+                            <p>Song Name</p>
+                        </div>
+                        <div class="singer">
+                            <p>Singer</p>
+                        </div>
+                    </div>
+                    <div class="make-favourite">
+                        <i class="fa-solid fa-heart"></i></i>
+                    </div>
+                </div>
+                <!--Item 5 ends-->
+
+                <!--Item 6-->
+                <div class="queue">
+                    <div class="queue-items">
+                        <div class="serial-no">06</div>
+                        <div class="queue-image"><img src="Assets/Selena_Gomez_&_the_Scene_-_Kiss_&_Tell.jpg">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="song-name">
+                            <p>Song Name</p>
+                        </div>
+                        <div class="singer">
+                            <p>Singer</p>
+                        </div>
+                    </div>
+                    <div class="make-favourite">
+                        <i class="fa-solid fa-heart"></i></i>
+                    </div>
+                </div>
+                <!--Item 6 ends-->
+
+                <!--Item 7-->
+                <div class="queue">
+                    <div class="queue-items">
+                        <div class="serial-no">07</div>
+                        <div class="queue-image"><img src="Assets/sick boy_the chainsmokers.webp">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="song-name">
+                            <p>Song Name</p>
+                        </div>
+                        <div class="singer">
+                            <p>Singer</p>
+                        </div>
+                    </div>
+                    <div class="make-favourite">
+                        <i class="fa-solid fa-heart"></i></i>
+                    </div>
+                </div>
+                <!--Item 7 ends-->
+
+                <!--Item 8-->
+                <div class="queue">
+                    <div class="queue-items">
+                        <div class="serial-no">08</div>
+                        <div class="queue-image"><img src="Assets/miley_cyrus___wrecking_ball_.png">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="song-name">
+                            <p>Song Name</p>
+                        </div>
+                        <div class="singer">
+                            <p>Singer</p>
+                        </div>
+                    </div>
+                    <div class="make-favourite">
+                        <i class="fa-solid fa-heart"></i></i>
+                    </div>
+                </div>
+                <!--Item 8 ends-->
+
+                <!--Item 9-->
+                <div class="queue">
+                    <div class="queue-items">
+                        <div class="serial-no">09</div>
+                        <div class="queue-image"><img src="Assets/miley cyrus the time of our lives.jpg">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="song-name">
+                            <p>Song Name</p>
+                        </div>
+                        <div class="singer">
+                            <p>Singer</p>
+                        </div>
+                    </div>
+                    <div class="make-favourite">
+                        <i class="fa-solid fa-heart"></i></i>
+                    </div>
+                </div>
+                <!--Item 9 ends-->
+
+                <!--Item 10-->
+                <div class="queue">
+                    <div class="queue-items">
+                        <div class="serial-no">10</div>
+                        <div class="queue-image"><img src="Assets/james arthur naked.jpg">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="song-name">
+                            <p>Song Name</p>
+                        </div>
+                        <div class="singer">
+                            <p>Singer</p>
+                        </div>
+                    </div>
+                    <div class="make-favourite">
+                        <i class="fa-solid fa-heart"></i></i>
+                    </div>
+                </div>
+                <!--Item 10 ends-->
+
+                <!--Item 11-->
+                <div class="queue">
+                    <div class="queue-items">
+                        <div class="serial-no">11</div>
+                        <div class="queue-image"><img src="Assets/Cant be tamed miley cyrus.webp">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="song-name">
+                            <p>Song Name</p>
+                        </div>
+                        <div class="singer">
+                            <p>Singer</p>
+                        </div>
+                    </div>
+                    <div class="make-favourite">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                </div>
+                <!--Item 11 ends-->
+
+                <!--Item 12-->
+                <div class="queue">
+                    <div class="queue-items">
+                        <div class="serial-no">12</div>
+                        <div class="queue-image"><img src="Assets/Coldplay_-_Ghost_Stories.png">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="song-name">
+                            <p>Song Name</p>
+                        </div>
+                        <div class="singer">
+                            <p>Singer</p>
+                        </div>
+                    </div>
+                    <div class="make-favourite">
+                        <i class="fa-solid fa-heart"></i></i>
+                    </div>
+                </div>
+                <!--Item 12 ends-->
+
+            </div>
+            <!--Aside section header ends-->
+        </aside>
+         <!--Aside section close-->
+         <footer>
+             <div class="player-footer">
+                 <div class="player">
+                    <div class="song">
+                        <div class="queue-image" style="margin: 0.7rem;"><img src="Assets/Million Days.jpg"></div>
+                        <div id="song-details">
+                            <div id="name">
+                                <p>Song Name</p>
+                            </div>
+                            <div id="singer-name">
+                                <p>Singer</p>
+                            </div>
+                        </div>
+                        <div class="icons"><i class="fa-solid fa-heart"></i></div>
+                        <div class="icons"><i class="fa-solid fa-ban"></i></div>
+                    </div>
+                    <div class="controls">
+                        <div class="song-controls">
+                            <div class="icons"><i class="fa-solid fa-shuffle"></i></div>
+                            <div class="icons"><i class="fa-solid fa-backward-fast"></i></div>
+                            <div class="icons play"><i class="fa-solid fa-play"></i></div>
+                            <div class="icons"><i class="fa-solid fa-forward-fast"></i></div>
+                            <div class="icons"><i class="fa-solid fa-repeat"></i></div>
+                        </div>
+                        <div class="slider"><hr>
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+            
+                    <div class="side">
+                        <div class="song-controls">
+                            <div class="icons"><i class="fa-solid fa-microphone-lines"></i></div>
+                            <div class="icons"><i class="fa-solid fa-sliders"></i></div>
+                            <div class="icons"><i class="fa-solid fa-volume-high"></i></div>
+                            <div class="slider2"><hr>
+                                <div class="circle2"></div>
+                            </div>
+                        <div class="icons"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </footer>
+    </body>
+</html>
